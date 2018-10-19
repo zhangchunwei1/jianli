@@ -1,0 +1,27 @@
+body{background-color: #F4F4F4}
+
+/*article*/
+article{width: 800px;margin: 0 auto;padding: 20px;background-color: snow;box-shadow: 10px 10px 20px black}
+p{color: #555;line-height: 35px;font-size: 14px;
+    letter-spacing: 2px;}
+
+
+/*header*/
+header{text-align: center}
+header h1{font-size: 30px;margin: 10px 0 10px 0;
+    color: #a7aca8;border-top:solid 10px #b4bebf;padding-top: 50px;text-shadow: 2px -2px 0 #000b28,4px -4px 0 #8f968f,6px -6px 0 #fffff7;}
+
+/*section*/
+section h2{color:white;font-size: 20px;;background-color: #555555}
+.l1{width:100px;float:right;margin: 40px 50px 0 0;}
+.p1{font-size:14px;letter-spacing:1px;margin: 50px 0 50px 0}
+.p2{font-size:14px;margin: 50px 0 50px 0}
+.p3{margin: 50px 0 50px 0;color:cornflowerblue;font-size: 14px}
+.p4{margin: 50px 0 0 0;font-size: 14px;border-bottom:solid 10px #b4bebf;padding-bottom: 50px}
+.p5{margin: 50px 0 50px 0;font-size: 14px}
+@media all and (max-width: 640px){
+    article{width: 100%;box-sizing: border-box}
+    section figure{width: 100%}
+    section figure img{width: 100%}
+}
+.l1{width: 100%;float: none;margin: 10px 0 0 0}
